@@ -76,7 +76,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 				$msg_error = $mail->ErrorInfo;
 			} else {
 				$is_emailed = false;
-				$msg_error = "<strong>Ohh! You are really stupid.</strong>! Now time to stop and purchase this template.";
+				$msg_error = "<strong>Sorry about that! Seems to be an error on our end. Please contact us at info@neoware.io";
 			}
 			
 			if( $is_emailed === true ) {
