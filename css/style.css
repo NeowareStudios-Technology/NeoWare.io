@@ -1510,7 +1510,7 @@ input ~ .error:after, textarea ~ .error:after, select ~ .error:after { position:
 .has-fixed.is-dark .header-main { background-color: #08103b; }
 .header-container:not(.container) { width: 100%; padding: 0 15px; }
 .header-wrap { position: relative; width: 100%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
-.header-logo { margin: 6px 0; flex-shrink: 0; }
+.header-logo { margin: 6px 0;  height: 50%;}
 .header-navbar { position: fixed; left: -280px; top: 0; width: 260px; height: 100vh; transition: all 0.4s; }
 .header-navbar::before, .header-navbar-overlay { position: absolute; height: 100%; width: 100%; content: ''; top: 0; }
 .header-navbar::before { background: #fff; left: 50%; transform: translateX(-50%); transition: all .4s; }
