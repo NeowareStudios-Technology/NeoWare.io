@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Softnio">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<!-- Fav Icon  -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<!-- Site Title  -->
+	<title>Neoware.io</title>
+	<!-- Bundle and Base CSS -->
+	<link rel="stylesheet" href="css/vendor.bundle.css?ver=150">
+	<link rel="stylesheet" href="css/style.css?ver=150">
+	<!-- Color Scheme CSS -->
+    <link rel="stylesheet" href="css/theme.css?ver=150" id="theming">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+	
+</head>
+ 
+<body class="nk-body body-wider bg-light">
+        <div class="nk-wrap">
+            <header id="header">
+                <!-- Header @s -->
+                <div class="header-main">
+                    <div class="header-container container">
+                        <div class="header-wrap">
+                            <!-- Logo @s -->
+                            <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
+                                <a href="./" class="logo-link">
+                                    <img class="logo-dark" src="img/logo_white.PNG" alt="logo">
+                                    <img class="logo-light" src="img/logo.PNG" alt="logo">
+                                </a>
+                            </div>
+    
+                            <!-- Menu Toogle @s -->
+                            <div class="header-nav-toggle">
+                                <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                    <div class="toggle-line">
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <!-- Menu @s -->
+                            <div class="header-navbar animated" data-animate="fadeInDown" data-delay=".75">
+                                
+                                <!-- DELETED MENU HERE -->
+                                
+                                <nav class="header-menu" id="header-menu">
+                                    <a class="menu-link nav-link" href="test.html">Home</a>
+                                </nav>
+                            </div><!-- .header-navbar @e -->
+                        </div>                                                
+                    </div>
+                </div><!-- .header-main @e -->
+    
+                <!-- Banner @s -->
+                <div class="header-banner bg-theme-grad">
+                    <div class="nk-banner">
+                        
+                    <!-- Form Wizard -->
+                        <section  id="documents">
+    
+                    <div class="container">
+                        <!-- Section Head @s -->
+                        <div class="section-head text-center wide-auto">
+                        </div><!-- .section-head @e -->
+                        <div class="section-head text-center wide-auto">
+                        </div><!-- .section-head @e -->
+                        <div class="section-head text-center wide-auto">
+                        </div><!-- .section-head @e -->
+                        <!-- Block @s -->
+                        <div class="nk-block nk-block-document">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <div class="card card-lg animated" data-animate="fadeInUp" data-delay=".3">
+                                        <div class="row align-items-center justify-content-center">
+                                            <form role="form" action="" method="post" class="f1">
+                                <h3>Transaction Page</h3>
+                                <div class="f1-steps">
+                                    <div class="f1-progress">
+                                        <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3" style="width: 16.66%;"></div>
+                                    </div>
+                                    <div class="f1-step active">
+                                        <div class="f1-step-icon"></div>
+                                        <p>File</p>
+                                    </div>
+                                    <div class="f1-step">
+                                        <div class="f1-step-icon"></div>
+                                        <p>Key</p>
+                                    </div>
+                                    <div class="f1-step">
+                                        <div class="f1-step-icon"></div>
+                                        <p>Download</p>
+                                    </div>
+                                </div>
+                                
+                                <fieldset>
+                                    <h4>Drag and drop your file below:</h4>
+                                    <div class="form-group">
+                                    
+                                    <!-- Start Drag and Drop -->
+
+                                    <section id="wrapper">
+                                            <header>
+                                              <h1>Drag and drop, automatic upload</h1>
+                                            </header>
+                                        
+                                        <style>
+                                        #holder { border: 10px dashed #ccc; width: 300px; min-height: 300px; margin: 20px auto;}
+                                        #holder.hover { border: 10px dashed #0c0; }
+                                        #holder img { display: block; margin: 10px auto; }
+                                        #holder p { margin: 10px; font-size: 14px; }
+                                        progress { width: 100%; }
+                                        progress:after { content: '%'; }
+                                        .fail { background: #c00; padding: 2px; color: #fff; }
+                                        .hidden { display: none !important;}
+                                        </style>
+                                        <article>
+                                          <div id="holder">
+                                          </div> 
+                                          <p id="upload" class="hidden"><label>Drag &amp; drop not supported, but you can still upload via this input field:<br><input type="file"></label></p>
+                                          <p id="filereader"></p>
+                                          <p id="formdata"></p>
+                                          <p id="progress"></p>
+                                        </article>
+                                        <script>
+                                        var holder = document.getElementById('holder'),
+                                            tests = {
+                                              filereader: typeof FileReader != 'undefined',
+                                              dnd: 'draggable' in document.createElement('span'),
+                                              formdata: !!window.FormData,
+                                              progress: "upload" in new XMLHttpRequest
+                                            }, 
+                                            support = {
+                                              filereader: document.getElementById('filereader'),
+                                              formdata: document.getElementById('formdata'),
+                                              progress: document.getElementById('progress')
+                                            },
+                                            acceptedTypes = {
+                                              'image/png': true,
+                                              'image/jpeg': true,
+                                              'image/gif': true
+                                            },
+                                            progress = document.getElementById('uploadprogress'),
+                                            fileupload = document.getElementById('upload');
+                                        
+                                        "filereader formdata progress".split(' ').forEach(function (api) {
+                                          if (tests[api] === false) {
+                                            support[api].className = 'fail';
+                                          } else {
+                                            // FFS. I could have done el.hidden = true, but IE doesn't support
+                                            // hidden, so I tried to create a polyfill that would extend the
+                                            // Element.prototype, but then IE10 doesn't even give me access
+                                            // to the Element object. Brilliant.
+                                            support[api].className = 'hidden';
+                                          }
+                                        });
+                                        
+                                        function previewfile(file) {
+                                          if (tests.filereader === true && acceptedTypes[file.type] === true) {
+                                            var reader = new FileReader();
+                                            reader.onload = function (event) {
+                                              var image = new Image();
+                                              image.src = event.target.result;
+                                              image.width = 250; // a fake resize
+                                              holder.appendChild(image);
+                                            };
+                                        
+                                            reader.readAsDataURL(file);
+                                          }  else {
+                                            holder.innerHTML += '<p>Uploaded ' + file.name + ' ' + (file.size ? (file.size/1024|0) + 'K' : '');
+                                            console.log(file);
+                                          }
+                                        }
+                                        
+                                        function readfiles(files) {
+                                            debugger;
+                                            var formData = tests.formdata ? new FormData() : null;
+                                            for (var i = 0; i < files.length; i++) {
+                                              if (tests.formdata) formData.append('file', files[i]);
+                                              previewfile(files[i]);
+                                            }
+                                        
+                                            // now post a new XHR request
+                                            if (tests.formdata) {
+                                              var xhr = new XMLHttpRequest();
+                                              xhr.open('POST', '/devnull.php');
+                                              xhr.onload = function() {
+                                                progress.value = progress.innerHTML = 100;
+                                              };
+                                        
+                                              if (tests.progress) {
+                                                xhr.upload.onprogress = function (event) {
+                                                  if (event.lengthComputable) {
+                                                    var complete = (event.loaded / event.total * 100 | 0);
+                                                    progress.value = progress.innerHTML = complete;
+                                                  }
+                                                }
+                                              }
+                                        
+                                              xhr.send(formData);
+                                            }
+                                        }
+                                        
+                                        if (tests.dnd) { 
+                                          holder.ondragover = function () { this.className = 'hover'; return false; };
+                                          holder.ondragend = function () { this.className = ''; return false; };
+                                          holder.ondrop = function (e) {
+                                            this.className = '';
+                                            e.preventDefault();
+                                            readfiles(e.dataTransfer.files);
+                                          }
+                                        } else {
+                                          fileupload.className = 'hidden';
+                                          fileupload.querySelector('input').onchange = function () {
+                                            readfiles(this.files);
+                                          };
+                                        }
+                                        
+                                        </script>
+                                        </section>
+                                        </div>
+                
+                                    <!-- End Drag and Drop -->
+                                        
+                                    <div class="f1-buttons">
+                                        <button type="button" class="btn btn-next">Next</button>
+                                    </div>
+            
+                                </fieldset>
+    
+                                <fieldset>
+                                    <h4>Drag and drop your Key below:</h4>
+                                    
+                                    <!-- Start Drag and Drop -->
+                                    
+                                    
+                                    <section id="wrapper">
+                                            <header>
+                                              <h1>Drag and drop, automatic upload</h1>
+                                            </header>
+                                        
+                                        <style>
+                                        #holder { border: 10px dashed #ccc; width: 300px; min-height: 300px; margin: 20px auto;}
+                                        #holder.hover { border: 10px dashed #0c0; }
+                                        #holder img { display: block; margin: 10px auto; }
+                                        #holder p { margin: 10px; font-size: 14px; }
+                                        progress { width: 100%; }
+                                        progress:after { content: '%'; }
+                                        .fail { background: #c00; padding: 2px; color: #fff; }
+                                        .hidden { display: none !important;}
+                                        </style>
+                                        <article>
+                                          <div id="holder">
+                                          </div> 
+                                          <p id="upload" class="hidden"><label>Drag &amp; <br><input type="file"></label></p>
+                                          <p id="filereader"></p>
+                                          <p id="formdata"></p>
+                                          <p id="progress"></p>
+                                        </article>
+                                        <script>
+                                        var holder = document.getElementById('holder'),
+                                            tests = {
+                                              filereader: typeof FileReader != 'undefined',
+                                              dnd: 'draggable' in document.createElement('span'),
+                                              formdata: !!window.FormData,
+                                              progress: "upload" in new XMLHttpRequest
+                                            }, 
+                                            support = {
+                                              filereader: document.getElementById('filereader'),
+                                              formdata: document.getElementById('formdata'),
+                                              progress: document.getElementById('progress')
+                                            },
+                                            acceptedTypes = {
+                                              'image/png': true,
+                                              'image/jpeg': true,
+                                              'image/gif': true
+                                            },
+                                            progress = document.getElementById('uploadprogress'),
+                                            fileupload = document.getElementById('upload');
+                                        
+                                        "filereader formdata progress".split(' ').forEach(function (api) {
+                                          if (tests[api] === false) {
+                                            support[api].className = 'fail';
+                                          } else {
+                                            // FFS. I could have done el.hidden = true, but IE doesn't support
+                                            // hidden, so I tried to create a polyfill that would extend the
+                                            // Element.prototype, but then IE10 doesn't even give me access
+                                            // to the Element object. Brilliant.
+                                            support[api].className = 'hidden';
+                                          }
+                                        });
+                                        
+                                        function previewfile(file) {
+                                          if (tests.filereader === true && acceptedTypes[file.type] === true) {
+                                            var reader = new FileReader();
+                                            reader.onload = function (event) {
+                                              var image = new Image();
+                                              image.src = event.target.result;
+                                              image.width = 250; // a fake resize
+                                              holder.appendChild(image);
+                                            };
+                                        
+                                            reader.readAsDataURL(file);
+                                          }  else {
+                                            holder.innerHTML += '<p>Uploaded ' + file.name + ' ' + (file.size ? (file.size/1024|0) + 'K' : '');
+                                            console.log(file);
+                                          }
+                                        }
+                                        
+                                        function readfiles(files) {
+                                            debugger;
+                                            var formData = tests.formdata ? new FormData() : null;
+                                            for (var i = 0; i < files.length; i++) {
+                                              if (tests.formdata) formData.append('file', files[i]);
+                                              previewfile(files[i]);
+                                            }
+                                        
+                                            // now post a new XHR request
+                                            if (tests.formdata) {
+                                              var xhr = new XMLHttpRequest();
+                                              xhr.open('POST', '');
+                                              xhr.onload = function() {
+                                                progress.value = progress.innerHTML = 100;
+                                              };
+                                        
+                                              if (tests.progress) {
+                                                xhr.upload.onprogress = function (event) {
+                                                  if (event.lengthComputable) {
+                                                    var complete = (event.loaded / event.total * 100 | 0);
+                                                    progress.value = progress.innerHTML = complete;
+                                                  }
+                                                }
+                                              }
+                                        
+                                              xhr.send(formData);
+                                            }
+                                        }
+                                        
+                                        if (tests.dnd) { 
+                                          holder.ondragover = function () { this.className = 'hover'; return false; };
+                                          holder.ondragend = function () { this.className = ''; return false; };
+                                          holder.ondrop = function (e) {
+                                            this.className = '';
+                                            e.preventDefault();
+                                            readfiles(e.dataTransfer.files);
+                                          }
+                                        } else {
+                                          fileupload.className = 'hidden';
+                                          fileupload.querySelector('input').onchange = function () {
+                                            readfiles(this.files);
+                                          };
+                                        }
+                                        
+                                        </script>
+                                        </section>
+
+                                    <!-- End Drag and Drop -->
+                                    
+                                    <div class="f1-buttons">
+                                        <button type="button" class="btn btn-previous">Previous</button>
+                                        <button type="button" class="btn btn-next">Next</button>
+                                    </div>
+                                </fieldset>
+    
+                                <fieldset>
+                                    <h4>Download:</h4>
+                                    
+                                    <!-- Start Download Button -->
+                                    <a class="btn btn-grad color-back" href="#">Download</a>
+                                    <style>
+                                        .color-back{
+                                            background-color: #02101d;
+                                            color: #fff;
+                                        }
+                                    </style>
+                                    <!-- End Download Button -->
+                                    
+                                </fieldset>
+                                                
+                                </form>
+                                      </div><!-- .row -->
+                                    </div><!-- .box -->
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .block @e -->
+                    </div>
+        
+                </section>
+                    <!-- End Form Wizard -->
+    
+                    <!-- Place Particle Js -->
+                    <div id="particles-bg" class="particles-container particles-bg"></div>
+                    </div>
+                </div>
+                <!-- .header-banner @e -->
+            </header>
+        
+            <main class="nk-pages">
+                
+            </main>
+        
+            <footer class="nk-footer bg-theme-grad">
+                <!-- // -->
+                <section class="section section-footer section-l tc-light bg-transparent">
+                
+                    <div class="container">
+                        <!-- Block @s -->
+                        <div class="nk-block block-footer">
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-4 mb-4 mb-sm-0">
+                                    <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay=".2">
+                                        <h6 class="wgs-title">Company</h6>
+                                        <div class="wgs-body">
+                                            <ul class="wgs-links">
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Meet Our Team</a></li>
+                                                <li><a href="#">Advisors</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#">Insights</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-2 col-sm-4 mb-4 mb-sm-0">
+                                    <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay=".3">
+                                        <h6 class="wgs-title">Legal</h6>
+                                        <div class="wgs-body">
+                                            <ul class="wgs-links">
+                                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Terms of Sales</a></li>
+                                                <li><a href="#">Whitepaper</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-2 col-sm-4 mb-4 mb-sm-0">
+                                    <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay=".4">
+                                        <h6 class="wgs-title">Quick Links</h6>
+                                        <div class="wgs-body">
+                                            <ul class="wgs-links">
+                                                <li><a href="#">Ecosystems</a></li>
+                                                <li><a href="#">Tokens</a></li>
+                                                <li><a href="#">Roadmaps</a></li>
+                                                <li><a href="#">Faqs</a></li>
+                                                <li><a href="#">Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-6 mb-4 mb-lg-0 order-lg-first">
+                                    <div class="wgs wgs-text animated" data-animate="fadeInUp" data-delay=".1">
+                                        <div class="wgs-body">
+                                            <a href="./" class="wgs-logo">
+                                                <img src="img/logo.PNG" srcset="img/logo.PNG" alt="logo">
+                                            </a>
+                                            <p>Copyright © 2018 ICO Crypto. <br>ABN: 2018AD947. All rights reserved. </p>
+                                            <p class="copyright-text">Template by <a href="https://softnio.com/">Softnio</a>. Handcrafted by iO.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .block @e -->
+                    </div>
+                    
+                </section>
+                <div class="nk-ovm shape-b"></div>
+            </footer>
+        </div>
+    
+        <div class="preloader"><span class="spinner spinner-round"></span></div>
+        
+        <!-- JavaScript -->
+        <script src="js/jquery.bundle.js?ver=150"></script>
+        <script src="js/scripts.js?ver=150"></script>
+        <script src="js/charts.js"></script>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
