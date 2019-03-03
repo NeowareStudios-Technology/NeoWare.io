@@ -1,0 +1,32 @@
+
+---Downloaded files---
+The import files for: App Demo Four were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://127.0.0.1:8080/wordpress
+Data file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo7/demo-content.xml
+Widget file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo7/widgets.wie
+Customizer file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo7/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar Widgets : 
+
+Apparatus Author Bio Widget - About CEO - Imported
+Apparatus Recent Post List - Recent Posts - Imported
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Tag Cloud - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdc/after_import---
+

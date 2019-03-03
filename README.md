@@ -1,2 +1,0 @@
-# NeoWare.io
-NEOWARE Webpage
