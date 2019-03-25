@@ -1,0 +1,11 @@
+
+---Downloaded files---
+The import files for: App Demo One were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost:8080/wordpress
+Data file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo1/demo-content.xml
+Widget file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo1/widgets.wie
+Customizer file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo1/customizer.dat
+Redux files:
+not defined!

@@ -1,0 +1,36 @@
+
+---Downloaded files---
+The import files for: Software Demo Three were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost:8080/wordpress
+Data file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo6/demo-content.xml
+Widget file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo6/widgets.wie
+Customizer file = /Applications/wordpress-5.0.3-2/apps/wordpress/htdocs/wp-content/themes/apparatus/framework/demo-content/demo6/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar Widgets : 
+
+Apparatus Author Bio Widget - About CEO - Widget already exists
+Apparatus Recent Post List - Recent Posts - Imported
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Tag Cloud - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdc/after_import---
+
