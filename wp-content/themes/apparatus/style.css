@@ -105,8 +105,9 @@ body {
 
 section {
 	position: relative;
-	width: 100%
-}
+	width: 100%;
+	text-align: center;
+   	}
 
 *,
 *:focus {
@@ -372,14 +373,14 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: roboto, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 button,
 p,
 a,
 li {
-	font-family: nunito, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 a .button.bg-color-1,
@@ -390,7 +391,7 @@ p.small,
 #bcrumbs span,
 a #logo_img,
 .footer-brand .logo {
-	font-family: nunito, sans-serif!important
+	font-family: Rounded Elegance, sans-serif!important
 }
 
 a {
@@ -444,7 +445,7 @@ strong {
 }
 
 .small {
-	font-size: 80%;
+	font-size: 100%;
 	margin-bottom: 5px
 }
 
@@ -583,7 +584,7 @@ border-style: solid;
 	box-shadow: 0 15px 30px 0 rgba(5, 16, 44, .15);
 	transition: .4s;
 	-webkit-transition: .4s;
-	font-family: nunito, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	width: auto
 }
 
@@ -646,7 +647,7 @@ border-style: solid;
 	background-color: #333;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	font-family: montserrat, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 .page-numbers.page-links a .linkstyle {
@@ -660,7 +661,7 @@ border-style: solid;
 	transition: .3s;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	font-family: montserrat, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	text-decoration: none
 }
 
@@ -761,7 +762,7 @@ border-style: solid;
 	font-weight: 700;
 	width: 100%;
 	height: 100%;
-	font-family: nunito, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 1rem
 }
 
@@ -915,7 +916,7 @@ ul.menu-even.menu-depth-2 {
 
 .header .container {
 	position: center;
-	height: 100%
+	height: 110%
 }
 
 .header-row {
@@ -1209,7 +1210,7 @@ ul.comments-list ul.children:last-child .cm-left {
 	line-height: 1.2em;
 	color: #607d8b;
 	padding: 4px 0;
-	font-family: roboto, sans-serif!important
+	font-family: Rounded Elegance, sans-serif!important
 }
 
 .comment-navigation .nav-links a:hover {
@@ -1347,6 +1348,10 @@ section.pricing {
 	padding: 0
 }
 
+.opacity {
+	opacity: .2;
+}
+
 ul.pricing-detail.disabled-features {
 	margin-bottom: 13px
 }
@@ -1365,6 +1370,7 @@ ul.pricing-detail.disabled-features {
 	border-top: 1px solid #efeff0;
 	border-bottom: none
 	color: #fff;
+	opacity: 0.6;
 }
 
 .pricing-detail.gray {
@@ -1381,12 +1387,12 @@ ul.pricing-detail.disabled-features {
 	font-size: 48px;
 	line-height: 80px;
 	font-weight: 700!important;
-	font-family: roboto, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 .plan_price.bold {
 	font-weight: 500!important;
-	font-family: montserrat, sans-serif
+	font-family: Rounded Elegance, sans-serif
 
 }
 
@@ -1404,7 +1410,7 @@ p.plan_desc {
 
 .price-header.bold {
 	font-weight: 300!important;
-	font-family: roboto, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 .pricing-table .button {
@@ -1460,7 +1466,7 @@ p.plan_desc {
 .wpb_wrapper .blog-description .bold.dark {
 	margin-bottom: 10px;
 	color: #fff;
-	font-family: roboto, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 24px;
 	line-height: 1.3em
 }
@@ -1480,7 +1486,7 @@ p.plan_desc {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
 
 .blog-description.deflt-image {
@@ -1532,7 +1538,7 @@ p.plan_desc {
 .blog-description h2 {
 	font-weight: 700;
 	color: #414b61;
-	font-family: nunito, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 1rem;
 	margin-bottom: 1rem;
 	line-height: 1.5
@@ -1868,7 +1874,7 @@ footer {
 	transition: .4s;
 	display: block;
 	padding: .5rem 1rem;
-	font-family: nunito, sans-serif
+	font-family: Rounded Elegance, sans-serif
 }
 
 .footer-nav li a:hover {
@@ -2173,19 +2179,19 @@ ul.comments-list {
 }
 
 #comments-section .comment-field-heading {
-	font-family: roboto, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	line-height: initial;
 	font-weight: 700
 }
 
 .comment-field-heading {
-	font-family: Roboto, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 16px;
 	font-weight: 700
 }
 
 h3.author_info {
-	font-family: nunito, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5
 }
@@ -2242,7 +2248,7 @@ section.dflt-page.single-layout-one .text-box img {
 }
 
 .comment-field-heading {
-	font-family: roboto, sans-serif;
+	font-family: Rounded Elegance, sans-serif;
 	font-size: 16px;
 	font-weight: 700
 }
@@ -2336,6 +2342,13 @@ textarea::placeholder {
 
 #comments-section .author_info .comment_time {
 	text-transform: none
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
 }
 
 #comments-section .dialog::after {
