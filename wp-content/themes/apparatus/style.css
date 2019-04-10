@@ -1145,6 +1145,7 @@ width: 100%
 .dialog:after {
 	content: '';
 	width: 0;
+	opacity: .0;
 	height: 0;
 	border-style: solid;
 	border-width: 20px 18px 0;
@@ -1349,11 +1350,12 @@ section.pricing {
 }
 
 .opacity {
-	opacity: .2;
+	opacity: .7;
 }
 
 ul.pricing-detail.disabled-features {
 	margin-bottom: 13px
+	opacity: 0.6;
 }
 
 .pricing-detail li {
@@ -1370,7 +1372,6 @@ ul.pricing-detail.disabled-features {
 	border-top: 1px solid #efeff0;
 	border-bottom: none
 	color: #fff;
-	opacity: 0.6;
 }
 
 .pricing-detail.gray {
