@@ -1398,6 +1398,10 @@ ul.pricing-detail.disabled-features {
 	font-family: Rounded Elegance, sans-serif
 }
 
+.paddingtop{
+	padding-top: 200px;
+}
+
 .plan_price.bold {
 	/*font-weight:*/
 	font-family: Rounded Elegance, sans-serif
@@ -1409,7 +1413,7 @@ p.plan_desc {
 }
 
 .screens-1 img {
-	width: 80%
+	width: 100%
 }
 
 .price-header {
