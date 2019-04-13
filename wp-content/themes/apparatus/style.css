@@ -475,7 +475,7 @@ hr {
 	margin: 15px 15px 0 0;
 	  border: 2px #383736 solid;
   border-radius: 5px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   outline: 0;
   overflow:hidden;
   background: none;
