@@ -93,7 +93,7 @@ body {
 	padding: 0;
 	margin: 0;
 	border: none;
-	width: 98%
+	width: 100%
 }
 
 .page-wrap {
@@ -407,21 +407,21 @@ p.white.p-header {
 	text-transform: capitalize;
 	margin-bottom: .5rem;
 	margin-top: .5rem;
-	font-weight: 500;
+	/*font-weight:*/
 	line-height: 1.2
 }
 
 .bold {
-	font-weight: 700!important
+	/*font-weight:*/
 }
 
 b,
 strong {
-	font-weight: 700
+	/*font-weight:*/
 }
 
 .thin {
-	font-weight: 300
+	/*font-weight:*/
 }
 
 .gray {
@@ -470,7 +470,7 @@ hr {
 	color: #fff;
 	border: 1px #383736 solid;
   	border-radius: 4px;
-	font-weight: 700;
+	/*font-weight:*/
 	
 	margin: 15px 15px 0 0;
 	  border: 2px #383736 solid;
@@ -576,7 +576,7 @@ border-style: solid;
 	display: inline-block;
 	padding: 15px 30px;
 	color: #f7f8fc;
-	font-weight: 700;
+	/*font-weight:*/
 	border: none;
 	border-radius: 5px;
 	margin: 15px 15px 0;
@@ -606,7 +606,7 @@ border-style: solid;
 
 .link {
 	white-space: nowrap;
-	font-weight: 700;
+	font-weight:
 	transition: .4s;
 	-webkit-transition: .4s
 }
@@ -621,9 +621,9 @@ border-style: solid;
 	clear: both
 }
 
-.page-links-title {
-	font-weight: 600;
-	margin-right: 15px
+.page-links-title 
+ 	/*font-weight:*/
+ 	margin-right: px
 }
 
 .blog .page-numbers.page-links {
@@ -640,7 +640,7 @@ border-style: solid;
 	border: none;
 	padding: 12px 18px;
 	border-radius: 0;
-	font-weight: 700;
+	/*font-weight:*/
 	color: #fff;
 	-webkit-transition: .3s;
 	transition: .3s;
@@ -655,7 +655,7 @@ border-style: solid;
 	border: none;
 	padding: 12px 18px;
 	border-radius: 0;
-	font-weight: 700;
+	/*font-weight:*/
 	color: #333;
 	-webkit-transition: .3s;
 	transition: .3s;
@@ -672,7 +672,7 @@ border-style: solid;
 	border: none;
 	padding: 12px 18px;
 	border-radius: 0;
-	font-weight: 700;
+	/*font-weight:*/
 	color: #fff;
 	-webkit-transition: .3s;
 	transition: .3s
@@ -695,7 +695,7 @@ border-style: solid;
 }
 
 .white-link {
-	font-weight: 700;
+	/*font-weight:*/
 	opacity: .7;
 	color: #f7f8fc;
 	transition: .4s;
@@ -759,7 +759,7 @@ border-style: solid;
 
 .navbar ul li a {
 	color: #fff;
-	font-weight: 700;
+	/*font-weight:*/
 	width: 100%;
 	height: 100%;
 	font-family: Rounded Elegance, sans-serif;
@@ -807,7 +807,7 @@ ul.menu-even.menu-depth-2 {
 	border-radius: 50%;
 	text-align: center;
 	padding-top: 4px;
-	font-weight: bolder;
+	/*font-weight:*/
 	font-size: 32px
 }
 
@@ -1005,7 +1005,7 @@ width: 100%
 .hiw-item div {
 	opacity: 1;
 	text-align: center;
-	font-weight: 700;
+	/*font-weight:*/
 	height: 60px;
 	width: 60px;
 	font-size: 29px;
@@ -1214,7 +1214,7 @@ ul.comments-list ul.children:last-child .cm-left {
 
 .comment-navigation .nav-links a {
 	font-size: 20px;
-	font-weight: 500;
+	/*font-weight:*/
 	line-height: 1.2em;
 	color: #607d8b;
 	padding: 4px 0;
@@ -1317,7 +1317,7 @@ ul.comments-list ul.children:last-child .cm-left {
 
 .post-password-form label {
 	font-size: 15.4px;
-	font-weight: 700
+	/*font-weight:*/
 }
 
 .post-password-form input {
@@ -1382,24 +1382,24 @@ ul.pricing-detail.disabled-features {
 }
 
 .pricing-detail.gray {
-	font-weight: 500;
+	/*font-weight:*/
 	color: #000
 }
 
 .pricing-detail.white {
-	font-weight: 500;
+	/*font-weight:*/
 	color: #fff
 }
 
 .plan_price.bold span {
 	font-size: 48px;
 	line-height: 80px;
-	font-weight: 700!important;
+	/*font-weight:*/
 	font-family: Rounded Elegance, sans-serif
 }
 
 .plan_price.bold {
-	font-weight: 500!important;
+	/*font-weight:*/
 	font-family: Rounded Elegance, sans-serif
 
 }
@@ -1417,7 +1417,7 @@ p.plan_desc {
 }
 
 .price-header.bold {
-	font-weight: 300!important;
+	/*font-weight:*/
 	font-family: Rounded Elegance, sans-serif
 }
 
@@ -1433,7 +1433,7 @@ p.plan_desc {
 }
 
 .stats p.white {
-	font-weight: 600!important;
+	/*font-weight:*/
 	font-size: 16px
 }
 
@@ -1530,11 +1530,11 @@ p.plan_desc {
 
 .blog-description.noimg-post .bdescrip {
 	margin-bottom: 17px;
-	font-weight: 300
+	/*font-weight:*/
 }
 
 .blog-description span {
-	font-weight: 700!important;
+	/*font-weight:*/
 	font-size: 12px;
 	line-height: 20px;
 	padding-top: 5px;
@@ -1544,7 +1544,7 @@ p.plan_desc {
 }
 
 .blog-description h2 {
-	font-weight: 700;
+	/*font-weight:*/
 	color: #414b61;
 	font-family: Rounded Elegance, sans-serif;
 	font-size: 1rem;
@@ -1557,7 +1557,7 @@ h2.oneonerem {
 }
 
 .blog-description.img-post h2 {
-	font-weight: 300;
+	/*font-weight:*/
 	font-size: 1rem;
 	line-height: 1.5;
 	margin-bottom: 15px
@@ -1724,7 +1724,7 @@ textarea:focus {
 	width: 60px;
 	height: 150px;
 	color: #f7f8fc;
-	font-weight: 700;
+	/*font-weight:*/
 	border: 1px solid #fff;
 	border-radius: 8px;
 	-webkit-box-shadow: 0 15px 30px 0 rgba(5, 16, 44, .15);
@@ -1833,7 +1833,15 @@ textarea:focus {
 	transition-timing-function: ease-out
 }
 
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
 .footer-nav {
+
+	width: 110%;
 	padding: 0;
 	float: right;
 	margin: auto
@@ -1873,7 +1881,7 @@ footer {
 }
 
 .footer-nav li a {
-	font-weight: 700;
+	/*font-weight:*/
 	opacity: .7;
 	color: #f7f8fc;
 	-webkit-transition-timing-function: ease-out;
@@ -1938,7 +1946,7 @@ footer {
 	padding: 15px 20px;
 	background-color: transparent;
 	border-radius: 5px;
-	font-weight: 700;
+	/*font-weight:*/
 	color: #414b61;
 	-webkit-transition: .3s;
 	transition: .3s
@@ -1992,7 +2000,7 @@ blockquote {
 	padding: 30px;
 	background: #eff0f5;
 	font-size: 16px;
-	font-weight: 400;
+	/*font-weight:*/
 	border-left: 5px solid;
 	position: relative;
 	z-index: 2;
@@ -2104,11 +2112,11 @@ footer .btn {
 
 .blog-single-post p {
 	color: #414b61;
-	font-weight: 300
+	/*font-weight:*/
 }
 
 .blog-single-post .single-mainpost p {
-	font-weight: 500
+	/*font-weight:*/
 }
 
 select {
@@ -2189,13 +2197,13 @@ ul.comments-list {
 #comments-section .comment-field-heading {
 	font-family: Rounded Elegance, sans-serif;
 	line-height: initial;
-	font-weight: 700
+	/*font-weight:*/
 }
 
 .comment-field-heading {
 	font-family: Rounded Elegance, sans-serif;
 	font-size: 16px;
-	font-weight: 700
+	/*font-weight:*/
 }
 
 h3.author_info {
@@ -2258,7 +2266,7 @@ section.dflt-page.single-layout-one .text-box img {
 .comment-field-heading {
 	font-family: Rounded Elegance, sans-serif;
 	font-size: 16px;
-	font-weight: 700
+	/*font-weight:*/
 }
 
 .heading-comments-section {
@@ -2328,7 +2336,7 @@ p.logged-in-as {
 	display: block;
 	font-size: 14px;
 	text-transform: capitalize;
-	font-weight: 500;
+	/*font-weight:*/
 	margin-bottom: .5rem;
 	line-height: 26px
 }
@@ -2344,7 +2352,7 @@ textarea::placeholder {
 
 #comments-section .comment_time {
 	font-size: 12px;
-	font-weight: 400;
+	/*font-weight:*/
 	margin-left: 20px
 }
 
@@ -2408,7 +2416,7 @@ textarea::placeholder {
 	}
 	.navbar ul.sub-menu li>a {
 		font-size: 14px;
-		font-weight: 600;
+		/*font-weight:*/
 		-webkit-transition-timing-function: ease-in;
 		transition-timing-function: ease-in;
 		-webkit-transition: .4s;
@@ -2433,7 +2441,7 @@ textarea::placeholder {
 		-webkit-box-shadow: 0 0 1px #bbb;
 		box-shadow: 0 0 1px #bbb;
 		font-size: 13px;
-		font-weight: 500;
+		/*font-weight:*/
 		padding: 15px 0;
 		border-top: 2px solid #898989;
 		border-bottom: 2px solid #898989
@@ -2610,7 +2618,7 @@ textarea::placeholder {
 }
 
 .the-404 h2.heading2 {
-	font-weight: 800;
+	/*font-weight:*/
 	font-size: 350px;
 	line-height: 1em
 }
@@ -2705,7 +2713,7 @@ textarea::placeholder {
 		line-height: 23px
 	}
 	.navbar ul.dm-align-2 li a {
-		font-weight: inherit
+		/*font-weight:*/
 	}
 	.navbar-nav ul.menu-depth-4,
 	.navbar-nav ul.menu-depth-5,
