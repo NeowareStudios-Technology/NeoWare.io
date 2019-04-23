@@ -230,6 +230,35 @@ p.customfont {
 
 <body class="home page-template page-template-page-vc page-template-page-vc-php page page-id-71 wp-custom-logo wp-embed-responsive montserrat_font  ft_home wpb-js-composer js-comp-ver-5.7 vc_responsive elementor-default">
 
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="410046486212233"
+  theme_color="#ff5ca1"
+  logged_in_greeting="Hi! Welcome to NeoWare, how can we help you?"
+  logged_out_greeting="Hi! Welcome to NeoWare, how can we help you?">
+</div>
+
+
 <div class="preloader">
 <div class="status">
 <div class="spinner">
@@ -241,6 +270,7 @@ p.customfont {
 </div>
 </div>
 </div>
+
 
 
 <div id="top" class="page-wrap">
@@ -1063,27 +1093,7 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/neoware.io\/index.php?rest_route=\
 <script src="js/anime.min.js"></script>
 		<script src="js/main.js"></script>
 
-<div class="fb-customerchat"
- page_id="410046486212233"
- minimized="true">
-</div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '912333495590130',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v2.11'
-    });
-  };
-(function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+
 
 </body>
 </html>
