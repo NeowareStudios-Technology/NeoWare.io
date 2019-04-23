@@ -488,6 +488,56 @@ hr {
   -webkit-transition: 0.08s ease-in;
 }
 
+.buttonblue {
+	cursor: pointer;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	border: 1px #383736 solid;
+  	border-radius: 4px;
+	/*font-weight:*/
+	
+	margin: 15px 15px 0 0;
+	  border: 2px #383736 solid;
+  border-radius: 5px;
+/*  text-transform: uppercase;*/
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.buttonpink {
+	cursor: pointer;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	border: 1px #383736 solid;
+  	border-radius: 4px;
+	/*font-weight:*/
+	
+	margin: 15px 15px 0 0;
+	  border: 2px #383736 solid;
+  border-radius: 5px;
+/*  text-transform: uppercase;*/
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
 
 
 .fillpink:hover {
@@ -597,7 +647,26 @@ border-style: solid;
 }
 
 .button:hover {
-	color: #fafbff;
+	color: #fff;
+	background-color: #fff;
+	-webkit-box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .18);
+	box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .2);
+	-webkit-transform: translateY(-3px) scale(1.01);
+	transform: translateY(-3px) scale(1.01)
+}
+
+.buttonblue:hover {
+	color: #fff;
+	background-color: #28C1EA;
+	-webkit-box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .18);
+	box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .2);
+	-webkit-transform: translateY(-3px) scale(1.01);
+	transform: translateY(-3px) scale(1.01)
+}
+
+.buttonpink:hover {
+	color: #fff;
+	background-color: #FF007E;
 	-webkit-box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .18);
 	box-shadow: 0 20px 30px 0 rgba(5, 16, 44, .2);
 	-webkit-transform: translateY(-3px) scale(1.01);
@@ -2913,3 +2982,21 @@ textarea::placeholder {
 		margin-bottom: 45px
 	}
 }
+
+
+
+
+.wrapper {
+    width: 50%;
+    max-width: 600px;
+    margin: 20% auto;
+}
+
+.box {
+    background-color: #000;
+    padding: 35px;
+    border-radius: 5rem;
+    border-color: #fff;
+    text-align: center;
+}
+
