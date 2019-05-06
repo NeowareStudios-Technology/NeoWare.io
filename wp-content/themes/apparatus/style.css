@@ -980,9 +980,8 @@ ul.menu-even.menu-depth-2 {
 .header {
 	text-align: center;
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	margin-top: 150px;
-	margin-bottom: -300px;
 }
 
 
@@ -1567,7 +1566,7 @@ p.plan_desc {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 50vh;
 }
 
 .blog-description.deflt-image {
@@ -2433,13 +2432,13 @@ textarea::placeholder {
 	text-transform: none
 }
 
-.center {
+/*.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:90%;
+    width:50vh;
 }
-
+*/
 #comments-section .dialog::after {
 	content: '';
 	width: 0;
