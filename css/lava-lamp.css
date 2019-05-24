@@ -1,0 +1,24 @@
+.lamp-container { 
+  width: 100%;
+  height: 800px;
+  overflow: hidden;  
+}
+
+.lamp-anim {
+  position: absolute;
+  left: 0;
+  z-index: 3;
+}
+
+.lamp-anim2 {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+#lamp-anim,
+#lamp-anim2 {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}

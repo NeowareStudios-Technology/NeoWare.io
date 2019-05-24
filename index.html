@@ -1,571 +1,580 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
-<!-- Begining of head section -->
-<!--------------------------------------------------------------------------------------------->
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="pingback" href="./xmlrpc.php">
-<title>Neoware &#8211; Building Brilliant Businesses</title>
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Neoware &raquo; Feed" href="./index.html?feed=rss2" />
-<link rel="alternate" type="application/rss+xml" title="Neoware &raquo; Comments Feed" href="./index.html?feed=comments-rss2" />
-<link rel="stylesheet" href="css/blockchain.css?ver=121">
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/blob.css" />
-<link rel='stylesheet' id='cnss_font_awesome_css-css' href='./wp-content/plugins/easy-social-icons/css/font-awesome/css/all.min.css?ver=5.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='cnss_font_awesome_v4_shims-css' href='./wp-content/plugins/easy-social-icons/css/font-awesome/css/v4-shims.min.css?ver=5.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='cnss_css-css' href='./wp-content/plugins/easy-social-icons/css/cnss.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-css' href='./wp-includes/css/dist/block-library/style.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-theme-css' href='./wp-includes/css/dist/block-library/theme.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css' href='./wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-fonts-montserrat-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A200%2C300%2C400%2C500%2C500i%2C600%2C700%2C800&#038;ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-fonts-nunito_and_roboto-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C400i%2C500%2C700%2C900%7CNunito%3A200%2C300%2C400%2C600%2C700%2C800%2C900&#038;ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css' href='./wp-content/themes/apparatus/css/bootstrap.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-new-css' href='./wp-content/themes/apparatus/fonts/font-awesome/css/all.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel-css' href='./wp-content/themes/apparatus/css/owl.carousel.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel-theme-default-css' href='./wp-content/themes/apparatus/css/owl.theme.default.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='lity-css' href='./wp-content/themes/apparatus/css/lity.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='animations-css' href='./wp-content/themes/apparatus/css/animations.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-stylesheet-css' href='./wp-content/themes/apparatus/style.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-media-queries-css' href='./wp-content/themes/apparatus/css/media-queries.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-sidebar-widgets-css' href='./wp-content/themes/apparatus/css/widget.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-gutenberg-additions-css' href='./wp-content/themes/apparatus/gutenberg/css/gutenberg-additions.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-font-style-one-css' href='./wp-content/themes/apparatus/css/font-style-one.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='apparatus-public-style-css' href='./wp-content/plugins/the_apparatus_extensions/modules/public.css?ver=6.4.0' type='text/css' media='all' />
-<link rel='stylesheet' id='socicon-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/socicon.css?ver=20181009' type='text/css' media='all' />
-<link rel='stylesheet' id='genericons-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=20180625' type='text/css' media='all' />
-<link rel='stylesheet' id='fontawesome-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome.min.css?ver=20180625' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='./wp-includes/css/dashicons.min.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='js_composer_front-css' href='./wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.7' type='text/css' media='all' />
-<link rel='https://api.w.org/' href='./index.php?rest_route=/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 5.1" />
-<link rel="canonical" href="./index.html" />
-<link rel='shortlink' href='./index.html' />
-<link rel="alternate" type="application/json+oembed" href="./index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2F%2F" />
-<link rel="alternate" type="text/xml+oembed" href="./index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2F%2F&#038;format=xml" />
-<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="./wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-32x32.png" sizes="32x32" />
-<link rel="icon" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-180x180.png" />
-<meta name="msapplication-TileImage" content="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-270x270.png" />
-<!-- Begining of scripts-->
-<script type="text/javascript">
-	window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/neoware.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1"}};
-	!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"d704b7c7bb8431cbc7bd865a6","lid":"c857fd4ee0","uniqueMethods":true}) })</script>
-<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='./wp-content/plugins/easy-social-icons/js/cnss.js?ver=1.0'></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137239325-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Begining of head section -->
+	<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="pingback" href="./xmlrpc.php">
+	<title>Neoware &#8211; Building Brilliant Businesses</title>
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+	<link rel='dns-prefetch' href='//s.w.org' />
+	<link rel="alternate" type="application/rss+xml" title="Neoware &raquo; Feed" href="./index.html?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="Neoware &raquo; Comments Feed" href="./index.html?feed=comments-rss2" />
+	<link rel="stylesheet" href="css/blockchain.css?ver=121">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/blob.css" />
+	<link rel="stylesheet" type="text/css" href="css/lava-lamp.css">
+	<link rel='stylesheet' id='cnss_font_awesome_css-css' href='./wp-content/plugins/easy-social-icons/css/font-awesome/css/all.min.css?ver=5.7.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='cnss_font_awesome_v4_shims-css' href='./wp-content/plugins/easy-social-icons/css/font-awesome/css/v4-shims.min.css?ver=5.7.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='cnss_css-css' href='./wp-content/plugins/easy-social-icons/css/cnss.css?ver=1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css' href='./wp-includes/css/dist/block-library/style.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-theme-css' href='./wp-includes/css/dist/block-library/theme.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='contact-form-7-css' href='./wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-fonts-montserrat-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A200%2C300%2C400%2C500%2C500i%2C600%2C700%2C800&#038;ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-fonts-nunito_and_roboto-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C400i%2C500%2C700%2C900%7CNunito%3A200%2C300%2C400%2C600%2C700%2C800%2C900&#038;ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='bootstrap-css' href='./wp-content/themes/apparatus/css/bootstrap.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='font-awesome-new-css' href='./wp-content/themes/apparatus/fonts/font-awesome/css/all.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='owl-carousel-css' href='./wp-content/themes/apparatus/css/owl.carousel.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='owl-carousel-theme-default-css' href='./wp-content/themes/apparatus/css/owl.theme.default.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='lity-css' href='./wp-content/themes/apparatus/css/lity.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='animations-css' href='./wp-content/themes/apparatus/css/animations.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-stylesheet-css' href='./wp-content/themes/apparatus/style.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-media-queries-css' href='./wp-content/themes/apparatus/css/media-queries.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-sidebar-widgets-css' href='./wp-content/themes/apparatus/css/widget.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-gutenberg-additions-css' href='./wp-content/themes/apparatus/gutenberg/css/gutenberg-additions.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-font-style-one-css' href='./wp-content/themes/apparatus/css/font-style-one.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='apparatus-public-style-css' href='./wp-content/plugins/the_apparatus_extensions/modules/public.css?ver=6.4.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='socicon-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/socicon.css?ver=20181009' type='text/css' media='all' />
+	<link rel='stylesheet' id='genericons-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=20180625' type='text/css' media='all' />
+	<link rel='stylesheet' id='fontawesome-css' href='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome.min.css?ver=20180625' type='text/css' media='all' />
+	<link rel='stylesheet' id='dashicons-css' href='./wp-includes/css/dashicons.min.css?ver=5.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='js_composer_front-css' href='./wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.7' type='text/css' media='all' />
+	<link rel='https://api.w.org/' href='./index.php?rest_route=/' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml" />
+	<meta name="generator" content="WordPress 5.1" />
+	<link rel="canonical" href="./index.html" />
+	<link rel='shortlink' href='./index.html' />
+	<link rel="alternate" type="application/json+oembed" href="./index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2F%2F" />
+	<link rel="alternate" type="text/xml+oembed" href="./index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2F%2F&#038;format=xml" />
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="./wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-32x32.png" sizes="32x32" />
+	<link rel="icon" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-192x192.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-180x180.png" />
+	<meta name="msapplication-TileImage" content="./wp-content/uploads/2019/02/cropped-Neoware-Logo-512-270x270.png" />
+	<!-- Begining of scripts-->
+	<script type="text/javascript">
+		window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/neoware.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1"}};
+		!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+	</script>
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"d704b7c7bb8431cbc7bd865a6","lid":"c857fd4ee0","uniqueMethods":true}) })</script>
+	<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+	<script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+	<script type='text/javascript' src='./wp-content/plugins/easy-social-icons/js/cnss.js?ver=1.0'></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137239325-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-  gtag('config', 'UA-137239325-1');
-</script>
-<!-- End of head section -->
-</head>
-<!-- Site Body Code Begins -->
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of body section -->
-<body class="home page-template page-template-page-vc page-template-page-vc-php page page-id-71 wp-custom-logo wp-embed-responsive montserrat_font  ft_home wpb-js-composer js-comp-ver-5.7 vc_responsive elementor-default">
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v3.2'
-    });
-  };
+		gtag('config', 'UA-137239325-1');
+	</script>
+	<!-- End of head section -->
+	</head>
+	<!-- Site Body Code Begins -->
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of body section -->
+	<body class="home page-template page-template-page-vc page-template-page-vc-php page page-id-71 wp-custom-logo wp-embed-responsive montserrat_font  ft_home wpb-js-composer js-comp-ver-5.7 vc_responsive elementor-default">
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				xfbml            : true,
+				version          : 'v3.2'
+			});
+		};
 
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="410046486212233"
-  theme_color="#FF007E"
-  logged_in_greeting="Hi! Welcome to Neoware, how can we help you?"
-  logged_out_greeting="Hi! Welcome to Neoware, how can we help you?">
-</div>
-<!-- End of Facebook SDK section -->
-<div class="preloader">
-<div class="status">
-<div class="spinner">
-<div class="bg-color-2 rect1"></div>
-<div class="bg-color-2 rect2"></div>
-<div class="bg-color-2 rect3"></div>
-<div class="bg-color-2 rect4"></div>
-<div class="bg-color-2 rect5"></div>
-</div>
-</div>
-</div>
-<!-- Begining of top-div section -->
-<div id="top" class="page-wrap">
-<!-- Begining of navbar section -->
-	<nav id="navigation" class="navbar navbar-expand-lg">
-		<div class="container" id="navigation-container">
-			<a href="./index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="50" height="40" src="./wp-content/uploads/2019/02/Neoware-Logo-1.png" class="custom-logo" alt="Neoware" itemprop="logo" /></a> 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    			<span class="burger-menu">
-	    			<span class="burger "></span> </span>
-	    		</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul id="menu-main-menu" class="navbar-nav mrg-auto nav-menu-width parent-items-5"><li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-161 nav-item the-top-parent-item"><a title="onepage" href="index.html#home" class="nav-link">Home</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="About" href="index.html#about" class="nav-link">About</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Blog" href="index.html#blog" class="nav-link">Blog</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="index.html#contact" class="nav-link">Contact</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="sponsorships.html" class="nav-link">Sponsorships</a></li>
-
-					<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133 nav-item the-top-parent-item"><a title="Studios" href="neowarestudio.html" class="nav-link">Studios</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="portfolio.html" class="nav-link">Portfolio</a></li>
-
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="downloadables.html" class="nav-link">Shop</a></li>
-				</ul>
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="410046486212233"
+		theme_color="#FF007E"
+		logged_in_greeting="Hi! Welcome to Neoware, how can we help you?"
+		logged_out_greeting="Hi! Welcome to Neoware, how can we help you?">
+	</div>
+	<!-- End of Facebook SDK section -->
+	<div class="preloader">
+		<div class="status">
+			<div class="spinner">
+				<div class="bg-color-2 rect1"></div>
+				<div class="bg-color-2 rect2"></div>
+				<div class="bg-color-2 rect3"></div>
+				<div class="bg-color-2 rect4"></div>
+				<div class="bg-color-2 rect5"></div>
 			</div>
 		</div>
-	</nav>
-<!-- End of navbar section -->
-<!--------------------------------------------------------------------------------------------->
+	</div>
 
-<!-- Begining of top-div section -->
-	<header class="header section1 dif-mobile-bg">
+
+
+	
+	<!-- Begining of top-div section -->
+	<div id="top" class="page-wrap lamp-container">
+		<!--Lava Lamp Canvas-->
+			<canvas id="lamp-anim" class="lamp-anim" width="400" height="400"></canvas>
+			<canvas id="lamp-anim2" class="lamp-anim2" width="200" height="100"></canvas>
+			
+	<!-- Begining of navbar section -->
+		<nav id="navigation" class="navbar navbar-expand-lg">
+			<div class="container" id="navigation-container">
+				<a href="./index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="50" height="40" src="./wp-content/uploads/2019/02/Neoware-Logo-1.png" class="custom-logo" alt="Neoware" itemprop="logo" /></a> 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="burger-menu">
+							<span class="burger "></span> </span>
+						</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul id="menu-main-menu" class="navbar-nav mrg-auto nav-menu-width parent-items-5"><li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-161 nav-item the-top-parent-item"><a title="onepage" href="index.html#home" class="nav-link">Home</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="About" href="index.html#about" class="nav-link">About</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Blog" href="index.html#blog" class="nav-link">Blog</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="index.html#contact" class="nav-link">Contact</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="sponsorships.html" class="nav-link">Sponsorships</a></li>
+
+						<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133 nav-item the-top-parent-item"><a title="Studios" href="neowarestudio.html" class="nav-link">Studios</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="portfolio.html" class="nav-link">Portfolio</a></li>
+
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="downloadables.html" class="nav-link">Shop</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	<!-- End of navbar section -->
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- Begining of top-div section -->
+		<header class="header section1 dif-mobile-bg">
+			<div class="container">
+				<div class="row header-row">
+					<div class="col-sm-12 col-md-6 align-self-center main-title center">
+						<img class="jump center" src="./wp-content/uploads/2019/02/Neoware-2.png" alt="">
+							<a href="https://calendly.com/neowareinc" target="_blank">
+								<div class="buttonpink">Book an Experience</div>
+							</a>
+						<div>
+							<div class="contact-social-icons">
+								<ul class="sm-ac">
+									<li><a href="https://twitter.com/NeowareStudios" target="_blank"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://facebook.com/NeowareStudios" target="_blank"><i class="fab fa-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/NeowareStudios" target="_blank"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/NeowareStudios/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://www.youtube.com/channel/UCpzrwgouBXNTIlkWZB2o2AA/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End of header section -->
+		</header>
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- End of top-div section -->
+	</div>
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- Begining of about section -->
+	<section class="" id="about">
+		<div class="container col-sm-6">
+			<div class="row">
+				<div class="align-self-center">
+					<div class="section-title paddingtop">
+						<h2 class="heading2">Building Brilliant Businesses</h2>
+					</div>
+					<p>We've developed an ecosystem of products and services that emphasize trust while building a bridge from the digital world to the physical. From new startups seasoned businesses, our turnkey solutions provide the blueprint to build your business brilliantly. Explore what the  NeoVerse</b> has to offer...</p>
+				</div>
+			</div>
+		</div>
+	<!-- End of about section -->
+	</section>
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- Begining of neovu section -->
+	<section class="about about-1 p-30-30 xhvuw" id="about">
 		<div class="container">
-			<div class="row header-row">
-				<div class="col-sm-12 col-md-6 align-self-center main-title center">
-					<img class="jump center" src="./wp-content/uploads/2019/02/Neoware-2.png" alt="">
-						<a href="https://calendly.com/neowareinc" target="_blank">
-							<div class="buttonpink">Book an Experience</div>
-						</a>
-					<div>
-						<div class="contact-social-icons">
-							<ul class="sm-ac">
-								<li><a href="https://twitter.com/NeowareStudios" target="_blank"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="https://facebook.com/NeowareStudios" target="_blank"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="https://www.instagram.com/NeowareStudios" target="_blank"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/NeowareStudios/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UCpzrwgouBXNTIlkWZB2o2AA/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-							</ul>
+			<div class="row">
+				<div class="col-12 col-lg-5 order-lg-last mb-30 align-self-center">
+					<div class="section-title mb-30">
+						<p class="light bold small heading1">Make digital and physical worlds collide</p>
+						<h2 class="heading2">Experiential Living with Spatial Computing</h2>
+					</div>
+					<p class="light thin desc"> Augmented Reality</b> transforms the world around us by adding layers of immersive content and engaging interactions. We offer a wide range of applications that drive engagement, establish brand loyalty, and boost consumer awareness through customizable  AR</b>-interactions.</p>
+					<a href="https://calendly.com/neowareinc">
+						<div class="buttonblue">Augment Your World</div>
+					</a>
+				</div>
+				<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
+					<div class="item item--style-2" data-animation-path-duration="1500" data-animation-path-easing="easeOutElastic" data-morph-path="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z" data-path-scaleY="1.1" data-image-scaleX="1.3" data-image-scaleY="1.3" data-animation-deco-duration="2000" data-animation-deco-delay="100" data-deco-rotate="-10">
+						<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+							<clipPath id="clipShape2">
+								<path class="item__clippath" d="M 378.1,121.2 C 408.4,150 417.2,197.9 411,245.8 404.8,293.7 383.5,341.7 353.4,370.7 303.2,419.1 198.7,427.7 144.5,383.8 86.18,336.5 67.13,221.3 111.9,161 138.6,125 188.9,99.62 240.7,90.92 292.4,82.24 345.6,90.32 378.1,121.2 Z" />
+							</clipPath>
+							<g class="item__deco">
+								<use xlink:href="#deco1" />
+							</g>
+							<g clip-path="url(#clipShape2)">
+								<image class="item__img" xlink:href="img/2.png" x="0" y="0" height="500px" width="500px" />
+							</g>
+						</svg>
+						<div class="item__meta">
+							<h2 class="item__title">Innovation Through <br>Augmentation</h2>
+							<h3 class="item__subtitle">Evolving Experiences Through <br>Spatial Computing</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	<!-- End of header section -->
-	</header>
-<!--------------------------------------------------------------------------------------------->
+	<!-- End of neovu section -->
+	</section>
+	<!--------------------------------------------------------------------------------------------->
 
-<!-- End of top-div section -->
-</div>
-<!--------------------------------------------------------------------------------------------->
-
-<!-- Begining of about section -->
-<section class="" id="about">
-	<div class="container col-sm-6">
-		<div class="row">
-			<div class="align-self-center">
-				<div class="section-title paddingtop">
-					<h2 class="heading2">Building Brilliant Businesses</h2>
-				</div>
-				<p>We've developed an ecosystem of products and services that emphasize trust while building a bridge from the digital world to the physical. From new startups seasoned businesses, our turnkey solutions provide the blueprint to build your business brilliantly. Explore what the  NeoVerse</b> has to offer...</p>
-			</div>
-		</div>
-	</div>
-<!-- End of about section -->
-</section>
-<!--------------------------------------------------------------------------------------------->
-
-<!-- Begining of neovu section -->
-<section class="about about-1 p-30-30 xhvuw" id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-5 order-lg-last mb-30 align-self-center">
-				<div class="section-title mb-30">
-					<p class="light bold small heading1">Make digital and physical worlds collide</p>
-					<h2 class="heading2">Experiential Living with Spatial Computing</h2>
-				</div>
-				<p class="light thin desc"> Augmented Reality</b> transforms the world around us by adding layers of immersive content and engaging interactions. We offer a wide range of applications that drive engagement, establish brand loyalty, and boost consumer awareness through customizable  AR</b>-interactions.</p>
-				<a href="https://calendly.com/neowareinc">
-					<div class="buttonblue">Augment Your World</div>
-				</a>
-			</div>
-			<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
-				<div class="item item--style-2" data-animation-path-duration="1500" data-animation-path-easing="easeOutElastic" data-morph-path="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z" data-path-scaleY="1.1" data-image-scaleX="1.3" data-image-scaleY="1.3" data-animation-deco-duration="2000" data-animation-deco-delay="100" data-deco-rotate="-10">
-					<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
-						<clipPath id="clipShape2">
-							<path class="item__clippath" d="M 378.1,121.2 C 408.4,150 417.2,197.9 411,245.8 404.8,293.7 383.5,341.7 353.4,370.7 303.2,419.1 198.7,427.7 144.5,383.8 86.18,336.5 67.13,221.3 111.9,161 138.6,125 188.9,99.62 240.7,90.92 292.4,82.24 345.6,90.32 378.1,121.2 Z" />
-						</clipPath>
-						<g class="item__deco">
-							<use xlink:href="#deco1" />
-						</g>
-						<g clip-path="url(#clipShape2)">
-							<image class="item__img" xlink:href="img/2.png" x="0" y="0" height="500px" width="500px" />
-						</g>
-					</svg>
-					<div class="item__meta">
-						<h2 class="item__title">Innovation Through <br>Augmentation</h2>
-						<h3 class="item__subtitle">Evolving Experiences Through <br>Spatial Computing</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- End of neovu section -->
-</section>
-<!--------------------------------------------------------------------------------------------->
-
-<!-- Begining of neotrust section -->
-<section >
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-5  mb-30 align-self-center">
-				<div class="section-title mb-30">
-					<p class="light bold small heading1">Transparency & Trust with Blockchain Technology</p>
-					<h2 class="heading2"><span class='thin'></span>Develop an authentic bond with consumers<span class='thin'></span></h2>
-				</div>
-				<p class="light thin desc"> Blockchain</b> technology provides the distributed network strength that facilitates transparency and trust for supply chain management. Our proprietary protocol,  NeoTrust</b>, removes vulnerable central authorities and authenticates the transfer of digital assets through the use of public and private key encryption.</p>
-				<a href="NeoTrust.html"><div class="buttonpink">Open NeoTrust</div></a>
-				<a class="gray link" href=""> <i class="fas fa-chevron-right"></i></a>
-			</div>
-			<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
-				<div class="item item--style-8" data-animation-path-duration="2000" data-animation-path-easing="easeInOutQuart" data-morph-path="M 30.03,240.4 C 31.35,186.2 39.67,120 85.95,86.14 162.5,30.12 302,3.296 378.7,59.08 413.1,84.14 383.6,140 395.1,178.8 411.6,234.4 477.8,280.7 469.5,337.7 462.6,384.1 420.9,429 373.8,447.7 286.1,482.5 161.8,482.4 87.79,427 33.04,386 28.46,305 30.03,240.4 Z" data-path-scaleX="1.1" data-path-scaleY="1.1" data-animation-image-duration="2300" data-animation-image-easing="easeInOutQuart" data-image-scaleX="1.3" data-image-scaleY="1.3" data-image-translateY="-60" data-animation-deco-duration="2000" data-animation-deco-easing="easeInOutQuart" data-deco-scaleX="1.1" data-deco-scaleY="1.1" data-deco-rotate="-15">
-					<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
-						<clipPath id="clipShape8">
-							<path class="item__clippath" d="M 47.99,295.7 C 44.25,252.9 72.33,195.7 110.4,167 169.6,122.4 259,106.1 329.6,128.8 381.3,145.4 428,193 443.7,245 453.3,277 464.9,322.4 424.6,343.5 369,372.7 304.2,310.1 239.1,319 190.9,325.5 153,380 107.6,373.4 64.97,367.3 50.68,326.4 47.99,295.7 Z" />
-						</clipPath>
-						<g class="item__deco">
-							<use xlink:href="#deco2" />
-						</g>
-						<g clip-path="url(#clipShape8)">
-							<image class="item__img" xlink:href="img/1.png" x="0" y="0" height="500px" width="500px" />
-						</g>
-					</svg>
-					<div class="item__meta">
-						<h2 class="item__title">NeoTrust</h2>
-						<h3 class="item__subtitle">Building Trust, Loyalty, and Authenticity</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End of neotrust section -->
-
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of studios section -->
-
-<section class="about about-1 p-30-30 xhvuw">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-5 order-lg-last mb-30 align-self-center">
-				<div class="section-title mb-30">
-					<p class="light bold small heading1">A Creative Coworking Community</p>
-					<h2 class="heading2">Join the rising tide through collaboration</h2>
-				</div>
-				<p class="light thin desc">Coworking spaces have changed the way we all work forever. Together, we succeed by creating an environment of shared resources and collaboration. One of the most important parts of the  NeoVerse</b> is our collaborative workspace  Neoware Studios</b>. Located in Oviedo, Florida, the space is a home to many companies working together to further their goals.
-				</p>
-				<a href="./neowarestudio.html">
-					<div class="buttonblue">Visit Neoware Studios</div>
-				</a>
-			</div>
-			<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
-				<div class="item item--style-4" data-animation-path-duration="1700" data-animation-path-easing="easeInOutBack" data-morph-path="M 440.9,118.5 C 486.5,189.8 499,297.9 458.3,371.8 422.2,437.2 335.8,475.1 261.5,477.3 181.4,479.6 83.9,445.4 43.22,376.1 -0.2483,302.1 13.51,189.9 61.98,119.1 104.5,56.88 190.6,20.5 265.7,22.71 332.2,24.67 405,62.28 440.9,118.5 Z" data-path-translateY="-20" data-animation-image-duration="2000" data-animation-image-easing="easeInOutQuart" data-image-translateY="40" data-image-scaleX="1.3" data-image-scaleY="1.3" data-deco-scaleX="0.8" data-deco-scaleY="1.3">
-					<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
-						<clipPath id="clipShape4">
-							<path class="item__clippath" d="M 402.7,215.5 C 433.9,280.4 488.1,367.2 447.7,426.8 410.1,482.2 316.7,460.2 249.7,460.6 182.8,461.1 88.08,485.5 51.26,429.5 10.29,367.3 73.19,279.4 106.9,213 141.8,144 176.6,33.65 253.9,33.7 332.2,33.75 368.8,144.9 402.7,215.5 Z" />
-						</clipPath>
-						<g class="item__deco">
-							<use xlink:href="#deco4" />
-						</g>
-						<g clip-path="url(#clipShape4)">
-							<image class="item__img" xlink:href="img/4.png" x="0" y="0" height="500px" width="500px" />
-						</g>
-					</svg>
-					<div class="item__meta">
-						<!-- <div class="item__number">
-							<span class="item__specimen">92</span>
-							<span class="item__reference">EY7</span>
-						</div> -->
-						<h2 class="item__title">Neoware Studios</h2>
-						<h3 class="item__subtitle">Success Through Collaboration</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End of neotrust section -->
-
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of about-2 section -->
-
-<section class="" id="about">
-	<div class="container col-sm-6">
-		<div class="row">
-			<div class="align-self-center">
-				<div class="section-title ">
-					<h2 class="heading2">Journey into the NeoVerse</h2>
-				</div>
-				<p class="light thin desc">As the next wave of emerging tech comes crashing down onto businesses across the globe,  Neoware</b> launches new and existing businesses ahead of the curve by cultivating an environment of plug-and-play solutions in the fields of  augmented reality</b>,  blockchain technology</b>, and  collaborative</b> working.</p>
-			</div>
-			<div class="align-self-center screens-1">			
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End of about-2 section -->
-
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of download section -->
-
-<section>
-	<div class="container"><h1>Downloadable Wallpapers</h1> <br><br>
-        <div class="row n-paddings">
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-                <!-- Blog card -->
-                <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+1.png" download target="_blank"> 
-                    <div class="blog-card">
-                        <div class="blog-frame">
-							<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+1.png);" class="img"></div>
-  	                    </div>
-                        <div class="blog-description fillpink">
-                            <p class="bold dark">TAP TO DOWNLOAD</p>
-                            <p class="light thin montserrat">1920x1080</p>
-                        </div>
-                    </div>
-                </a>
-            </div>		
-
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-            	<!-- Blog card -->
-                <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+2.png" download target="_blank">
-                    <div class="blog-card">
-						<div class="blog-frame">
-                            <!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+2.png);" class="img"></div>
-                        </div>
-						<div class="blog-description fillblue">
-                        	<p class="bold dark">TAP TO DOWNLOAD</p>
-                            <p class="light thin montserrat">1920x1080</p>
-                        </div>
-                    </div>
-                </a>
-            </div>	
-
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-            	<!-- Blog card -->
-                <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+3.png" download target="_blank">
-                    <div class="blog-card">
-						<div class="blog-frame">
-                            <!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+3.png);" class="img"></div>
-                        </div>
-						<div class="blog-description fillpink">
-                        	<p class="bold dark">TAP TO DOWNLOAD</p>
-                            <p class="light thin montserrat">1920x1080</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-		</div>
-	</div>
-</section>
-<!-- End of download section -->
-
-<!--------------------------------------------------------------------------------------------->
-
-<!-- Start Categorised Blog Section-->
-<section>
-	<div id=blog class="container"><h1>Neo<span class='thin'>Blogs</span></h1> <br><br>
-        <div class="row n-paddings">
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-                <!-- Blog card -->
-                <a href="https://medium.com/@NeowareStudios/the-new-bizz-coming-to-your-shopping-mall-how-it-co-works-391e14c34638" target="_blank"> 
-                    <div class="blog-card">
-						<div class="blog-frame">
-							<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/Untitled-3-1-1024x429.jpg);" class="img"></div>
-                        </div>
-						<div class="blog-description fillblue">
-                            <p class="bold dark">The New Bizz Coming to Your Shopping Mall & How It (Co)Works</p>
-                            <p class="light thin montserrat"></p>
-                        </div>
-                    </div>
-                </a>
-            </div>		
-
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-                <!-- Blog card -->
-		   <!-- <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/NeoWallpaper2.png" target="_blank"> -->                             
-					<div class="blog-card">
-						<div class="blog-frame">
-                            <!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/Untitled-8-1-1024x429.jpg);" class="img"></div>
-                        </div>
-						<div class="blog-description fillpink">
-                            <p class="bold dark">How Blockchain Is Changing Verification</p>
-                            <p class="light thin montserrat">Coming Soon</p>
-                        </div>
-                    </div>
-		   <!-- </a> --> 
-            </div>	
-
-			<div class="col-12 col-lg-4 mb-48 mlr-24">
-                <!-- Blog card -->
-		   <!-- <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/NeoWallpaper3.png" target="_blank"> -->
-		          	<div class="blog-card">
-						<div class="blog-frame">
-                            <!-- <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
-                            <div style="background-image:url(./wp-content/uploads/2019/01/2-1024x429.jpg);" class="img"></div>
-                        </div>	
-                        <div class="blog-description fillblue">
-                            <p class="bold dark">Spatial Computing: Bringing Back Retail</p>
-                            <p class="light thin montserrat">Coming Soon</p>
-                        </div>
-	                </div>
-	       <!-- </a> --> 
-	        </div>
-
-		</div>
-    </div>
-</section>
-<!-- End Categorised Blog Section  -->
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of contact section -->
-
-<section class="contact p-0-60 xywaz" id="contact">
-	<div class="container">
-		<div class="bg-map">
-			<img src="./wp-content/uploads/2018/12/bg-map-2.png" alt="map">
-		</div>
-		<div class="row">
-			<div class="col-12 col-md-6">
-				<div class="section-title sm-ac mb-70">
-					<p class="light bold small heading1">Get in touch.</p>
-					<h2 class="heading2"><span class='thin'>Write us a</span> message</h2>
-					<p class="light thin heading3"></p>
-				</div>
-			</div>
-			<div class="col-12 col-md-6">
-				<div class="contact-social-icons">
-					<ul class="sm-ac">
-						<li><a href="https://twitter.com/NeowareStudios" target="_blank"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="https://facebook.com/NeowareStudios" target="_blank"><i class="fab fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/NeowareStudios" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/NeowareStudios/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UCpzrwgouBXNTIlkWZB2o2AA/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-					</ul>
-				</div>
-			</div>
- 		</div>
-		<form action="https://formspree.io/info@neoware.io" method="POST" id="form">
-			<div class="row">
-				<div class="col-12 col-md">
-					<input class="border" type="text" name="name" placeholder="Name" id="sendername" required>
-					<input class="border"  type="email" name="_replyto" placeholder="Email" id="emailaddress" required>
-				</div>
-				<div class="col-12 col-md">
-					<textarea class="border"  name="text" cols="30" rows="5" placeholder="Message" id="sendermessage" required></textarea>
-				</div>
-				<div class="col-12 col-md-auto text-center">
-					<button class="submit  border " type="submit" value="Send" ><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-				</div>
-			</div>
-		</form>
-	</div>
-</section>
-<!-- End of contact section -->
-
-<!--------------------------------------------------------------------------------------------->
-<!-- Begining of footer section -->
-
-<footer id="footer" class="bg-animation p-90-60">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 mb-30 col-md-3 align-self-center">
-				<a class="footer-brand" href="./index.html">
-					<div class="logo-image"><img src="./wp-content/uploads/2019/02/Neoware_Final_Logo_IconLine-White-3.png" alt="logo" />
-					</div>
-				</a>
-			</div>
-			<div class="col-12 col-md-9 align-self-center justify-content-center mb-30">
-				<ul id="menu-footer" class="footer-nav"><li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-161 nav-item the-top-parent-item"><a title="onepage" href="index.html#home" class="nav-link">Home</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="About" href="index.html#about" class="nav-link">About</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Blog" href="index.html#blog" class="nav-link">Blog</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="index.html#contact" class="nav-link">Contact</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="sponsorships.html" class="nav-link">Sponsorships</a></li>
-					<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133 nav-item the-top-parent-item"><a title="Studios" href="neowarestudio.html" class="nav-link">Studios</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="portfolio.html" class="nav-link">Portfolio</a></li>
-					<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="downloadables.html" class="nav-link">Shop</a></li>
-					<li id="menu-item-442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-442"><a href="https://s3.amazonaws.com/lwa-hosted-image/Neoware%2BPrivacyPolicy.pdf">Privacy Policy</a></li>
-				</ul> 
-			</div>
-		</div>
-	</div>
-	<div class="footer-copyright">
+	<!-- Begining of neotrust section -->
+	<section >
 		<div class="container">
-			<div class="row justify-content-end">
-				<div class="col-12 col-sm-6">
-					<a href="https://www.google.com/maps/dir//1485+Oviedo+Mall+Boulevard,+Oviedo,+FL+32765/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88e7695ee67338c1:0xc8fb928feeba2d74?sa=X&ved=2ahUKEwjUj5T0jPvhAhUIiqwKHfNHBWQQwwUwAHoECAoQAw" class="small thin white-light sm-ac">1485 Oviedo Mall Boulevard, Oviedo, FL 32765</a>
-					<p class="small thin white-light sm-ac">Copyrights © 2019. All Rights Reserved Neoware, Inc.</p>
+			<div class="row">
+				<div class="col-12 col-lg-5  mb-30 align-self-center">
+					<div class="section-title mb-30">
+						<p class="light bold small heading1">Transparency & Trust with Blockchain Technology</p>
+						<h2 class="heading2"><span class='thin'></span>Develop an authentic bond with consumers<span class='thin'></span></h2>
+					</div>
+					<p class="light thin desc"> Blockchain</b> technology provides the distributed network strength that facilitates transparency and trust for supply chain management. Our proprietary protocol,  NeoTrust</b>, removes vulnerable central authorities and authenticates the transfer of digital assets through the use of public and private key encryption.</p>
+					<a href="NeoTrust.html"><div class="buttonpink">Open NeoTrust</div></a>
+					<a class="gray link" href=""> <i class="fas fa-chevron-right"></i></a>
 				</div>
-				<div class="col-12 col-sm-6">
-					<p class="small thin white-light author sm-ac">Made with ❤ in Orlando </p>
+				<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
+					<div class="item item--style-8" data-animation-path-duration="2000" data-animation-path-easing="easeInOutQuart" data-morph-path="M 30.03,240.4 C 31.35,186.2 39.67,120 85.95,86.14 162.5,30.12 302,3.296 378.7,59.08 413.1,84.14 383.6,140 395.1,178.8 411.6,234.4 477.8,280.7 469.5,337.7 462.6,384.1 420.9,429 373.8,447.7 286.1,482.5 161.8,482.4 87.79,427 33.04,386 28.46,305 30.03,240.4 Z" data-path-scaleX="1.1" data-path-scaleY="1.1" data-animation-image-duration="2300" data-animation-image-easing="easeInOutQuart" data-image-scaleX="1.3" data-image-scaleY="1.3" data-image-translateY="-60" data-animation-deco-duration="2000" data-animation-deco-easing="easeInOutQuart" data-deco-scaleX="1.1" data-deco-scaleY="1.1" data-deco-rotate="-15">
+						<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+							<clipPath id="clipShape8">
+								<path class="item__clippath" d="M 47.99,295.7 C 44.25,252.9 72.33,195.7 110.4,167 169.6,122.4 259,106.1 329.6,128.8 381.3,145.4 428,193 443.7,245 453.3,277 464.9,322.4 424.6,343.5 369,372.7 304.2,310.1 239.1,319 190.9,325.5 153,380 107.6,373.4 64.97,367.3 50.68,326.4 47.99,295.7 Z" />
+							</clipPath>
+							<g class="item__deco">
+								<use xlink:href="#deco2" />
+							</g>
+							<g clip-path="url(#clipShape8)">
+								<image class="item__img" xlink:href="img/1.png" x="0" y="0" height="500px" width="500px" />
+							</g>
+						</svg>
+						<div class="item__meta">
+							<h2 class="item__title">NeoTrust</h2>
+							<h3 class="item__subtitle">Building Trust, Loyalty, and Authenticity</h3>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</footer>
-<!-- End of footer section -->
+	</section>
+	<!-- End of neotrust section -->
 
-<!--------------------------------------------------------------------------------------------->
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of studios section -->
 
-<!-- Begining of Scripts -->
-<script type='text/javascript' src='./wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='./wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='./wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='./wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/neoware.io\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='./wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/bootstrap.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/bootstrap.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/canvas.js'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/lity.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/main.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/custom-owl.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/themes/apparatus/js/navigation-one.js?ver=1.0.0'></script>
-<script type='text/javascript' src='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=20170209'></script>
-<script type='text/javascript' src='./wp-includes/js/wp-embed.min.js?ver=5.1'></script>
-<script type='text/javascript' src='./wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
-<script src="js/anime.min.js"></script>
-<script src="js/main.js"></script>
-<!-- End of Scripts -->
-<!--------------------------------------------------------------------------------------------->
-	</body>
+	<section class="about about-1 p-30-30 xhvuw">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-5 order-lg-last mb-30 align-self-center">
+					<div class="section-title mb-30">
+						<p class="light bold small heading1">A Creative Coworking Community</p>
+						<h2 class="heading2">Join the rising tide through collaboration</h2>
+					</div>
+					<p class="light thin desc">Coworking spaces have changed the way we all work forever. Together, we succeed by creating an environment of shared resources and collaboration. One of the most important parts of the  NeoVerse</b> is our collaborative workspace  Neoware Studios</b>. Located in Oviedo, Florida, the space is a home to many companies working together to further their goals.
+					</p>
+					<a href="./neowarestudio.html">
+						<div class="buttonblue">Visit Neoware Studios</div>
+					</a>
+				</div>
+				<div class="col-12 col-lg-7 mb-30 pull-lg-7 align-self-center screens-1">
+					<div class="item item--style-4" data-animation-path-duration="1700" data-animation-path-easing="easeInOutBack" data-morph-path="M 440.9,118.5 C 486.5,189.8 499,297.9 458.3,371.8 422.2,437.2 335.8,475.1 261.5,477.3 181.4,479.6 83.9,445.4 43.22,376.1 -0.2483,302.1 13.51,189.9 61.98,119.1 104.5,56.88 190.6,20.5 265.7,22.71 332.2,24.67 405,62.28 440.9,118.5 Z" data-path-translateY="-20" data-animation-image-duration="2000" data-animation-image-easing="easeInOutQuart" data-image-translateY="40" data-image-scaleX="1.3" data-image-scaleY="1.3" data-deco-scaleX="0.8" data-deco-scaleY="1.3">
+						<svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+							<clipPath id="clipShape4">
+								<path class="item__clippath" d="M 402.7,215.5 C 433.9,280.4 488.1,367.2 447.7,426.8 410.1,482.2 316.7,460.2 249.7,460.6 182.8,461.1 88.08,485.5 51.26,429.5 10.29,367.3 73.19,279.4 106.9,213 141.8,144 176.6,33.65 253.9,33.7 332.2,33.75 368.8,144.9 402.7,215.5 Z" />
+							</clipPath>
+							<g class="item__deco">
+								<use xlink:href="#deco4" />
+							</g>
+							<g clip-path="url(#clipShape4)">
+								<image class="item__img" xlink:href="img/4.png" x="0" y="0" height="500px" width="500px" />
+							</g>
+						</svg>
+						<div class="item__meta">
+							<!-- <div class="item__number">
+								<span class="item__specimen">92</span>
+								<span class="item__reference">EY7</span>
+							</div> -->
+							<h2 class="item__title">Neoware Studios</h2>
+							<h3 class="item__subtitle">Success Through Collaboration</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of neotrust section -->
+
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of about-2 section -->
+
+	<section class="" id="about">
+		<div class="container col-sm-6">
+			<div class="row">
+				<div class="align-self-center">
+					<div class="section-title ">
+						<h2 class="heading2">Journey into the NeoVerse</h2>
+					</div>
+					<p class="light thin desc">As the next wave of emerging tech comes crashing down onto businesses across the globe,  Neoware</b> launches new and existing businesses ahead of the curve by cultivating an environment of plug-and-play solutions in the fields of  augmented reality</b>,  blockchain technology</b>, and  collaborative</b> working.</p>
+				</div>
+				<div class="align-self-center screens-1">			
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of about-2 section -->
+
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of download section -->
+
+	<section>
+		<div class="container"><h1>Downloadable Wallpapers</h1> <br><br>
+					<div class="row n-paddings">
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+									<!-- Blog card -->
+									<a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+1.png" download target="_blank"> 
+											<div class="blog-card">
+													<div class="blog-frame">
+								<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+1.png);" class="img"></div>
+													</div>
+													<div class="blog-description fillpink">
+															<p class="bold dark">TAP TO DOWNLOAD</p>
+															<p class="light thin montserrat">1920x1080</p>
+													</div>
+											</div>
+									</a>
+							</div>		
+
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+								<!-- Blog card -->
+									<a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+2.png" download target="_blank">
+											<div class="blog-card">
+							<div class="blog-frame">
+															<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+2.png);" class="img"></div>
+													</div>
+							<div class="blog-description fillblue">
+														<p class="bold dark">TAP TO DOWNLOAD</p>
+															<p class="light thin montserrat">1920x1080</p>
+													</div>
+											</div>
+									</a>
+							</div>	
+
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+								<!-- Blog card -->
+									<a href="https://s3.us-east-2.amazonaws.com/neowallpapers/Wallpaper+3.png" download target="_blank">
+											<div class="blog-card">
+							<div class="blog-frame">
+															<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/Wallpaper+3.png);" class="img"></div>
+													</div>
+							<div class="blog-description fillpink">
+														<p class="bold dark">TAP TO DOWNLOAD</p>
+															<p class="light thin montserrat">1920x1080</p>
+													</div>
+											</div>
+									</a>
+							</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- End of download section -->
+
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- Start Categorised Blog Section-->
+	<section>
+		<div id=blog class="container"><h1>Neo<span class='thin'>Blogs</span></h1> <br><br>
+					<div class="row n-paddings">
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+									<!-- Blog card -->
+									<a href="https://medium.com/@NeowareStudios/the-new-bizz-coming-to-your-shopping-mall-how-it-co-works-391e14c34638" target="_blank"> 
+											<div class="blog-card">
+							<div class="blog-frame">
+								<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/Untitled-3-1-1024x429.jpg);" class="img"></div>
+													</div>
+							<div class="blog-description fillblue">
+															<p class="bold dark">The New Bizz Coming to Your Shopping Mall & How It (Co)Works</p>
+															<p class="light thin montserrat"></p>
+													</div>
+											</div>
+									</a>
+							</div>		
+
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+									<!-- Blog card -->
+				<!-- <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/NeoWallpaper2.png" target="_blank"> -->                             
+						<div class="blog-card">
+							<div class="blog-frame">
+															<!--  <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/Untitled-8-1-1024x429.jpg);" class="img"></div>
+													</div>
+							<div class="blog-description fillpink">
+															<p class="bold dark">How Blockchain Is Changing Verification</p>
+															<p class="light thin montserrat">Coming Soon</p>
+													</div>
+											</div>
+				<!-- </a> --> 
+							</div>	
+
+				<div class="col-12 col-lg-4 mb-48 mlr-24">
+									<!-- Blog card -->
+				<!-- <a href="https://s3.us-east-2.amazonaws.com/neowallpapers/NeoWallpaper3.png" target="_blank"> -->
+									<div class="blog-card">
+							<div class="blog-frame">
+															<!-- <div class="more-tooltip bg-color-1"><i class="fas fa-link"></i></div> -->
+															<div style="background-image:url(./wp-content/uploads/2019/01/2-1024x429.jpg);" class="img"></div>
+													</div>	
+													<div class="blog-description fillblue">
+															<p class="bold dark">Spatial Computing: Bringing Back Retail</p>
+															<p class="light thin montserrat">Coming Soon</p>
+													</div>
+										</div>
+					<!-- </a> --> 
+						</div>
+
+			</div>
+			</div>
+	</section>
+	<!-- End Categorised Blog Section  -->
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of contact section -->
+
+	<section class="contact p-0-60 xywaz" id="contact">
+		<div class="container">
+			<div class="bg-map">
+				<img src="./wp-content/uploads/2018/12/bg-map-2.png" alt="map">
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="section-title sm-ac mb-70">
+						<p class="light bold small heading1">Get in touch.</p>
+						<h2 class="heading2"><span class='thin'>Write us a</span> message</h2>
+						<p class="light thin heading3"></p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="contact-social-icons">
+						<ul class="sm-ac">
+							<li><a href="https://twitter.com/NeowareStudios" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://facebook.com/NeowareStudios" target="_blank"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/NeowareStudios" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/NeowareStudios/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCpzrwgouBXNTIlkWZB2o2AA/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<form action="https://formspree.io/info@neoware.io" method="POST" id="form">
+				<div class="row">
+					<div class="col-12 col-md">
+						<input class="border" type="text" name="name" placeholder="Name" id="sendername" required>
+						<input class="border"  type="email" name="_replyto" placeholder="Email" id="emailaddress" required>
+					</div>
+					<div class="col-12 col-md">
+						<textarea class="border"  name="text" cols="30" rows="5" placeholder="Message" id="sendermessage" required></textarea>
+					</div>
+					<div class="col-12 col-md-auto text-center">
+						<button class="submit  border " type="submit" value="Send" ><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- End of contact section -->
+
+	<!--------------------------------------------------------------------------------------------->
+	<!-- Begining of footer section -->
+
+	<footer id="footer" class="bg-animation p-90-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 mb-30 col-md-3 align-self-center">
+					<a class="footer-brand" href="./index.html">
+						<div class="logo-image"><img src="./wp-content/uploads/2019/02/Neoware_Final_Logo_IconLine-White-3.png" alt="logo" />
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-md-9 align-self-center justify-content-center mb-30">
+					<ul id="menu-footer" class="footer-nav"><li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-161 nav-item the-top-parent-item"><a title="onepage" href="index.html#home" class="nav-link">Home</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="About" href="index.html#about" class="nav-link">About</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Blog" href="index.html#blog" class="nav-link">Blog</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="index.html#contact" class="nav-link">Contact</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Contact" href="sponsorships.html" class="nav-link">Sponsorships</a></li>
+						<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133 nav-item the-top-parent-item"><a title="Studios" href="neowarestudio.html" class="nav-link">Studios</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="portfolio.html" class="nav-link">Portfolio</a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408 nav-item the-top-parent-item"><a title="Shop" href="downloadables.html" class="nav-link">Shop</a></li>
+						<li id="menu-item-442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-442"><a href="https://s3.amazonaws.com/lwa-hosted-image/Neoware%2BPrivacyPolicy.pdf">Privacy Policy</a></li>
+					</ul> 
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-12 col-sm-6">
+						<a href="https://www.google.com/maps/dir//1485+Oviedo+Mall+Boulevard,+Oviedo,+FL+32765/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88e7695ee67338c1:0xc8fb928feeba2d74?sa=X&ved=2ahUKEwjUj5T0jPvhAhUIiqwKHfNHBWQQwwUwAHoECAoQAw" class="small thin white-light sm-ac">1485 Oviedo Mall Boulevard, Oviedo, FL 32765</a>
+						<p class="small thin white-light sm-ac">Copyrights © 2019. All Rights Reserved Neoware, Inc.</p>
+					</div>
+					<div class="col-12 col-sm-6">
+						<p class="small thin white-light author sm-ac">Made with ❤ in Orlando </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of footer section -->
+
+	<!--------------------------------------------------------------------------------------------->
+
+	<!-- Begining of Scripts -->
+	<script type='text/javascript' src='./wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='./wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='./wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='./wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+	<script type='text/javascript'>
+	/* <![CDATA[ */
+	var wpcf7 = {"apiSettings":{"root":"https:\/\/neoware.io\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+	/* ]]> */
+	</script>
+	<script type='text/javascript' src='./wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/bootstrap.min.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/bootstrap.min.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/canvas.js'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/lity.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/main.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/custom-owl.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/themes/apparatus/js/navigation-one.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='./wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=20170209'></script>
+	<script type='text/javascript' src='./wp-includes/js/wp-embed.min.js?ver=5.1'></script>
+	<script type='text/javascript' src='./wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/lava-lamp.js"></script>
+	<!-- End of Scripts -->
+	<!--------------------------------------------------------------------------------------------->
+		</body>
 </html>
