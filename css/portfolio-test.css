@@ -53,7 +53,7 @@ a:hover {
 	grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
 	grid-template-rows: 300px 300px;	/* <--are the explicit grid values */
 	grid-column-gap: 40px;  /* <-- is gutter value */
-	grid-row-gap: 40px;  /* <-- is gutter value */
+	grid-row-gap: 60px;  /* <-- is gutter value */
 	grid-auto-rows: minmax(150px, auto); /* <--are the implicit grid values */
 	grid-auto-flow: row;
   margin: 45px auto;
