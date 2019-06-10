@@ -1,0 +1,109 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+* {
+	box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #28C1EA;
+}
+
+a:hover:nth-child(even) {
+  /* Not working yet */
+  color: #FF007E;;
+}
+
+
+/* =====================================
+   Grid Layout
+======================================== */
+.client {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.consul-button {
+  margin: 70px 15px 90px 40px;
+}
+
+.cover-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  /* max-height: 100%; */
+}
+
+.dillards,
+.dragons {
+  max-height: 235px;
+  width: 305px;
+}
+
+.dragons {
+  background-color: #111;
+}
+
+.freeConsul {
+  color: ##4FC9EE;
+}
+
+.grid {
+  border-color: #fff;
+  border-radius: 0.285em;
+  padding-bottom: 110px;
+  box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
+	display: grid;
+	/* track list sets three column tracks */
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	grid-template-rows: 130px 0px;	/* <--are the explicit grid values */
+	grid-column-gap: 0px;  /* <-- is gutter value */
+	grid-row-gap: 0px;  /* <-- is gutter value */
+	grid-auto-rows: minmax(250px, auto); /* <--are the implicit grid values */
+	grid-auto-flow: row;
+  margin: 45px auto;
+	max-width: 1250px;
+}
+
+.img-gallery {
+  background-repeat: no-repeat;
+  background-size: contain; 
+  display: inline-block;
+  max-width: 90%;
+  height: auto;
+}
+
+.title {
+  font-size: 5em;
+  letter-spacing: 4px;
+}
+
+/* UL Styles ******************************************************/
+.item {
+   /* Is the container for the png's */
+  border: solid 1px #fff;
+  border-radius: 0.3em;
+  padding: 0;
+  height: 119px;
+  width: 155px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+.item img {
+  width: 100%;
+  transform: scale(1.25);
+  transition: transform 1.25s;
+}
+.item:hover img {
+  transform: scale(1.65);
+}
