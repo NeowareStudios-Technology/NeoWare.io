@@ -13,6 +13,11 @@ a:hover {
   color: #28C1EA;
 }
 
+a:hover:nth-child(even) {
+  /* Not working yet */
+  color: #FF007E;;
+}
+
 
 /* =====================================
    Grid Layout
@@ -36,8 +41,12 @@ a:hover {
 
 .dillards,
 .dragons {
-  max-height: 200px;
+  max-height: 235px;
   width: 305px;
+}
+
+.dragons {
+  background-color: #111;
 }
 
 .freeConsul {
@@ -65,6 +74,8 @@ a:hover {
   border-radius: 0.3em;
   padding: 0;
 }
-.item:hover {
-  /* background: #28C1EA;; */
+
+.title {
+  font-size: 5em;
+  letter-spacing: 4px;
 }
